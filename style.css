@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #06131f;
+    padding: 30px 0;
+    
+}
+.container-header{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo-spotify{
+  width: 70px;     
+}
+
+main{
+    background-color: #1d2d3c;
+    padding: 50px 0;
+}
+
+.container-main{
+    max-width: 1000px;
+    margin: auto;   
+}
+
+ul{    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+    color: white;
+    
+}
+
+li{
+    width: calc(100% / 3 - 50px);
+    margin: 50px 25px;
+    background-color: #112030;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
